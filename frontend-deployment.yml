@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: souaibou1618/udagram-frontend:v3
+          image: souaibou1618/udagram-frontend:v4
           ports:
             - containerPort: 80
