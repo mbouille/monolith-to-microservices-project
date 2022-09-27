@@ -27,6 +27,11 @@ spec:
           volumeMounts:
             - mountPath: "/root/.aws/"
               name: aws-creds
+          resources:
+            limits:
+              cpu: 500m
+            requests:
+              cpu: 200m
       volumes:
         - name: aws-creds
           configMap:
